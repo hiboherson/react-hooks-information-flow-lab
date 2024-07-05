@@ -14,6 +14,7 @@ function Item({ name, category }) {
       <button
         className={isInCart ? "remove" : "add"}
         onClick={handleAddToCartClick}
+        style={{ backgroundColor: "purple" }}
       >
         {isInCart ? "Remove From" : "Add to"} Cart
       </button>
